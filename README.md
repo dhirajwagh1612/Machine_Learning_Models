@@ -31,7 +31,15 @@
  1. Upper Confidance Bound
  2. Thompson Sampling
  
+Basics Natural Language Processing
 
+Basic Deep Learning Models:
+1. Artificial Neural Network.
+2. Convolutional Nueral Network.
 
+Dimensionality Reduction
+1. Principal Componant Analysis.
+2. Linear Discriminant Analysis.
+3. Kernal PCA
 
 
