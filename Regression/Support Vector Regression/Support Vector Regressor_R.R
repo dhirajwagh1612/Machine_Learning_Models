@@ -13,7 +13,6 @@ regressor = svm(formula = salary~.,
                 type = 'eps-regression')
 
 
-# create regressor here.
 
 
 # predecting a new result.
