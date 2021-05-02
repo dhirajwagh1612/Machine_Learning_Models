@@ -1,4 +1,4 @@
-#Naive Bayes.
+#Decision Tree classificaion
 setwd('F:/Projects/Machine Learning/ML/Machine_Learning_Models/Classification/Decision Tree/')
 
 
@@ -48,7 +48,7 @@ colnames(grid_set) = c('Age', 'EstimatedSalary')
 prob_set = predict(classifier, type = 'response', newdata = grid_set)
 y_grid = predict(classifier, newdata = grid_set, type = 'class')
 plot(set[, -3],
-     main = 'Naive Bayes (Training set)',
+     main = 'Decision Tree classification (Training set)',
      xlab = 'Age', ylab = 'Estimated Salary',
      xlim = range(X1), ylim = range(X2))
 contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
@@ -65,7 +65,7 @@ colnames(grid_set) = c('Age', 'EstimatedSalary')
 prob_set = predict(classifier, type = 'response', newdata = grid_set)
 y_grid = predict(classifier, newdata = grid_set, type = 'class')
 plot(set[, -3],
-     main = 'Naive Bayes (Test set)',
+     main = 'Decision Tree classification (Test set)',
      xlab = 'Age', ylab = 'Estimated Salary',
      xlim = range(X1), ylim = range(X2))
 contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
