@@ -27,13 +27,13 @@
  1. Apriori
  2. Eclat
 
- Renforcement Learning
+ Renforcement Learning 
  1. Upper Confidance Bound
  2. Thompson Sampling
  
-Basics Natural Language Processing
+Basics Natural Language Processing (Find out whether the feedback given to restaurant is positive to negative)
 
-Basic Deep Learning Models:
+Basic Deep Learning Models
 1. Artificial Neural Network.
 2. Convolutional Nueral Network.
 
